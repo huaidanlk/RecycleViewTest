@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout1"
+    tools:context="com.example.recyeleviewtest.DrawerlayoutActivity">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/color_0176da"
+            android:theme="@style/ImageTranslucentTheme"
+            android:title=""
+            >
+            <!--自定义控件-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Clock" />
+        </android.support.v7.widget.Toolbar>
+    </FrameLayout>
+ <!--   <fragment
+        android:name="com.example.recyeleviewtest.fragment.FragmentLeft"
+        android:layout_gravity="right"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        />
+    <android.support.design.widget.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.design.widget.NavigationView>-->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/m0"
+        android:layout_gravity="left"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+</android.support.v4.widget.DrawerLayout>
