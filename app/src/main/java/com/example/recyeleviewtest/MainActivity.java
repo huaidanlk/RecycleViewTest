@@ -45,11 +45,11 @@ public class MainActivity extends TranslucentBarBaseActivity {
 
     private void initData() {
         for(int i=0;i<3;i++){
-            mFruitList.add(new Fruit(getRandomLengthName("璇子酱"),R.drawable.essential_icons_cancel));
-            mFruitList.add(new Fruit(getRandomLengthName("小仙女master12"),R.drawable.essential_icons_cancel));
-            mFruitList.add(new Fruit(getRandomLengthName("仙女儿"),R.drawable.essential_icons_clock));
-            mFruitList.add(new Fruit(getRandomLengthName("小仙"),R.drawable.essential_icons_comment));
-            mFruitList.add(new Fruit(getRandomLengthName("璇璇"),R.drawable.essential_icons_comment_lines));
+            mFruitList.add(new Fruit(getRandomLengthName("啊啊"),R.drawable.essential_icons_cancel));
+            mFruitList.add(new Fruit(getRandomLengthName("啊啊"),R.drawable.essential_icons_cancel));
+            mFruitList.add(new Fruit(getRandomLengthName("啊啊"),R.drawable.essential_icons_clock));
+            mFruitList.add(new Fruit(getRandomLengthName("啊啊"),R.drawable.essential_icons_comment));
+            mFruitList.add(new Fruit(getRandomLengthName("啊啊"),R.drawable.essential_icons_comment_lines));
         }
     }
     private String getRandomLengthName(String name){
